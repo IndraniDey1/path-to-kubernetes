@@ -18,9 +18,9 @@ public class HelloWorldApplication {
 
       @RequestMapping(path = "/", method = RequestMethod.GET)
       public String Get() {
-          return "Hello World!";
+          return "Hello Java World! from Indrani"; 
       } 
-    }
+  }
   
   public static void main(String[] args) throws IOException {
     SpringApplication.run(HelloWorldApplication.class, args);
